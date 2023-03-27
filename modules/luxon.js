@@ -3371,7 +3371,7 @@
  }
  
  /**
-  * An Interval object represents a half-open interval of time, where each endpoint is a {@link DateTime}. Conceptually, it's a container for those two endpoints, accompanied by methods for creating, parsing, interrogating, comparing, transforming, and formatting them.
+  * An Interval object represents a half-open interval of time, where each endpoint is a {@link DateTime}. Conceptually, it's a holder for those two endpoints, accompanied by methods for creating, parsing, interrogating, comparing, transforming, and formatting them.
   *
   * Here is a brief overview of the most commonly used methods and getters in Interval:
   *

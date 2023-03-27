@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.holder {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
@@ -99,8 +99,8 @@ nav ul li {
   cursor: pointer;
 }
 
-.contact-info p,
-.contact-info li {
+.contact_info p,
+.contact_info li {
   text-align: start;
 }
 
@@ -112,7 +112,7 @@ nav li:hover {
   border: none;
 }
 
-#current-date {
+#time {
   padding-top: 1rem;
   font-size: small;
   text-align: right;
@@ -129,7 +129,7 @@ footer {
   text-align: start;
 }
 
-.contact-info {
+.contact_info {
   font-size: large;
   text-align: center;
 }
@@ -139,7 +139,7 @@ footer {
   padding-left: 30%;
 }
 
-.info-item-list {
+.info_item_list {
   padding-left: 35%;
 }
 

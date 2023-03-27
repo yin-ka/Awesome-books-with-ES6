@@ -5,7 +5,7 @@ import Library from './modules/library.js';
 
 // define the current local time
 const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-document.getElementById('current-date').innerHTML = currentDate;
+document.getElementById('time').innerHTML = currentDate;
 
 // Event: Display Books
 document.addEventListener('DOMContentLoaded', Library.displayBooks);
@@ -42,20 +42,20 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
 });
 
 // display the books list when click the button "List"
-const bookList = document.querySelector('.book-list-container');
-const listBtn = document.querySelector('.listBtn');
-const formContainer = document.querySelector('.form-container');
-const contactInfo = document.querySelector('.contact-info');
+const bookList = document.querySelector('.book_list_holder');
+const list = document.querySelector('.list');
+const formholder = document.querySelector('.form-holder');
+const contactInfo = document.querySelector('.contact_info');
 
-listBtn.addEventListener('click', () => {
+list.addEventListener('click', () => {
   bookList.classList.remove('hide');
-  formContainer.classList.add('hide');
+  formholder.classList.add('hide');
   contactInfo.classList.add('hide');
 });
 
 window.addEventListener('load', () => {
   bookList.classList.remove('hide');
-  formContainer.classList.add('hide');
+  formholder.classList.add('hide');
   contactInfo.classList.add('hide');
 });
 
@@ -64,7 +64,7 @@ const addNewBtn = document.querySelector('.add-new-btn');
 
 addNewBtn.addEventListener('click', () => {
   bookList.classList.add('hide');
-  formContainer.classList.remove('hide');
+  formholder.classList.remove('hide');
   contactInfo.classList.add('hide');
 });
 
@@ -72,6 +72,6 @@ addNewBtn.addEventListener('click', () => {
 const contactBtn = document.querySelector('.contact');
 contactBtn.addEventListener('click', () => {
   bookList.classList.add('hide');
-  formContainer.classList.add('hide');
+  formholder.classList.add('hide');
   contactInfo.classList.remove('hide');
 });
