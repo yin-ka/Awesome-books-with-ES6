@@ -27,140 +27,111 @@
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Awesome Book]** is a book selector project where user can add or remove a favorite book.
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- HTML
+- CSS
+- JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+<details>
+  <summary>Version Control</summary>
+  <ul>
+    <li><a href="https://github.com/">Git Hub</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+  </ul>
+</details>
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.com/html5/">HTML5</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
+- **Linters SetUp**
+- **Follow HTML and CSS best practice**
+- **Display Text**
+- **form validation**
+- **JavaScript classes**
+- **store form data in local storage**
+- **Added the single Page behaviors**
+- **Implementation of ES6 and modules**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- Comming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+Use git clone command or download ZIP folder
 
 ### Install
 
 Install this project with:
-
-<!--
+npm
 Example command:
-
 ```sh
   cd my-project
-  gem install
+  npm init -y
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
+npm start or live server
 Example command:
-
 ```sh
-  rails server
+  GitHub Pages Server
 ```
---->
-
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
+npm test
 Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "**/*.{css,scss}"
+  npx eslint .
 ```
---->
-
 ### Deployment
 
 You can deploy this project using:
-
-<!--
+GitHub Pages
 Example:
-
 ```sh
-
+git@github.com:Yinka/Sharing-World.git
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,37 +139,26 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Author**
+:bust_in_silhouette: **Yusuf Sholotan**
+- GitHub: [@githubhandle](https://github.com/yin-ka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yusuf-sholotan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+## :telescope: Future Features <a name="future-features"></a><br/>
+- [ ] **Adding BackEnd**<br/>
+- [ ] **Making it stylish**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!<br/>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -212,7 +172,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please follow me on github & twitter and also connect on Linkedin.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,9 +180,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- I would like to thank Microverse for this exercise. <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,15 +188,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **How long can it take to build that project**
 
-- **[Question_1]**
+  - four days according to personal skills
 
-  - [Answer_1]
+- **Where to find figma for that project!**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Figma is not available for now!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
