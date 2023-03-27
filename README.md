@@ -149,7 +149,6 @@ git@github.com:Yinka/Sharing-World.git
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-## :telescope: Future Features <a name="future-features"></a><br/>
 - [ ] **Adding BackEnd**<br/>
 - [ ] **Making it stylish**
 
